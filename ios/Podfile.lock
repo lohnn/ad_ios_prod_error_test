@@ -1,0 +1,29 @@
+PODS:
+  - appdynamics_agent (24.4.0):
+    - AppDynamicsAgent (~> 2024.2.0)
+    - Flutter
+  - AppDynamicsAgent (2024.2.0)
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - appdynamics_agent (from `.symlinks/plugins/appdynamics_agent/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - AppDynamicsAgent
+
+EXTERNAL SOURCES:
+  appdynamics_agent:
+    :path: ".symlinks/plugins/appdynamics_agent/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  appdynamics_agent: 8ed074441e4470d238a6f9bcbfe3b1d8534bcc36
+  AppDynamicsAgent: 07ad22f5aeab11a12de7998d0b802d051c082a64
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2

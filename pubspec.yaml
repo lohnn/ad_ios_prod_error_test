@@ -1,0 +1,20 @@
+name: ad_ios_prod_test
+description: "Testing AppDynamics request tracking error"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.2.0 <4.0.0'
+
+dependencies:
+  appdynamics_agent: ^24.4.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
