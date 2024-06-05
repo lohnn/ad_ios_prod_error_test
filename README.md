@@ -4,6 +4,8 @@ This is a minimal reproducible example of an error with AppDynamics request trac
 
 Steps to reproduce:
 
+First make sure you run flutter version 3.22.0 or higher. (older versions will not break)
+
 1. Run `flutter pub get`
 2. Replace the key in the `app_key.dart` file with a valid key
 3. Run `pod install` in the `ios` folder
