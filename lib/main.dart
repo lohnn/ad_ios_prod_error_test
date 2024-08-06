@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:appdynamics_agent/appdynamics_agent.dart';
 import 'package:flutter/material.dart';
 
@@ -35,7 +37,8 @@ class MainApp extends StatelessWidget {
 }
 
 Future<void> reproduceError() async {
-  final tracker = await RequestTracker.create('https://google.com/');
+  final number = Random().nextInt(10000);
+  final tracker = await RequestTracker.create('https://$number.com/');
   await tracker.setResponseStatusCode(200);
   await tracker.reportDone();
 }
